@@ -17,7 +17,18 @@ export default {
     ButtonAbout,
     ButtonFrog
   },
-
+  data() {
+    return {
+    }
+  },
+  methods: {
+    handleButton() {
+      this.$router.push('/CatGenerator');
+    },
+    goToAbout() {
+      this.$router.push('/about');
+    }
+  }
 }
 </script>
 <style scoped>
