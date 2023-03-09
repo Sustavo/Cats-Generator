@@ -1,4 +1,4 @@
-# dogs-generator
+# cats-generator
 
 ## Project setup
 ```
