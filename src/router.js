@@ -21,7 +21,11 @@ const router = new Router({
             name: "about",
             component: About
         },
-
+        {
+            path: "/CatGenerator",
+            name: "CatGenerator",
+            component: CatGenerator
+        },
     ]
     
 });
