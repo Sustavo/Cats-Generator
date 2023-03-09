@@ -1,16 +1,25 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="main">
+      <ButtonFrog @button-clicked="handleButton" />
+      <ButtonAbout @button-clicked="goToAbout"/>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
+import ButtonAbout from '@/components/ButtonAbout.vue'
+import ButtonFrog from '@/components/ButtonFrog.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
-  }
+    ButtonAbout,
+    ButtonFrog
+  },
+
 }
 </script>
+<style scoped>
+
+</style>
