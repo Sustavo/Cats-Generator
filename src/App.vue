@@ -30,7 +30,14 @@ body {
 }
 
 main {
-  height: 100vh;
+  min-height: 100vh;
+}
+
+footer {
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  background-color: #6EB5FF;
 }
 
 </style>
