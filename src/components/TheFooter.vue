@@ -32,7 +32,7 @@ export default {
     justify-content: center;
     align-items: center;
     background: #6EB5FF;
-    height: 80px;
+    height: 100px;
 }
 
 ul {
