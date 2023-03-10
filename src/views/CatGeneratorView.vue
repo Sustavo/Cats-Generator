@@ -40,6 +40,10 @@ export default {
 <style scoped>
 .main {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   margin: 15vh 0;
   max-height: calc(100vh - 220px);
   overflow-y: auto;
