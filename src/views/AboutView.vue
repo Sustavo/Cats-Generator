@@ -11,6 +11,12 @@ export default {
 </script>
 
 <style scoped>
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 .animate-text {
   font-size: 50px;
   white-space: nowrap;
@@ -50,12 +56,5 @@ export default {
 
 .typing-animation {
   animation: typing 12s steps(40) both;
-}
-
-.about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
 }
 </style>
