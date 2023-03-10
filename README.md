@@ -1,4 +1,4 @@
-# cats-generator
+# Cats generator
 
 ## Project setup
 ```
