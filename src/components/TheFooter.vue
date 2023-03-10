@@ -27,5 +27,33 @@ export default {
 </script>
 
 <style scoped>
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6EB5FF;
+    height: 80px;
+}
 
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #F2F2F2;
+}
 </style>
